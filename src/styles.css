@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flexbox;
+}
+.box {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.input-output-box {
+  width: 70%;
+  height: 100%;
+}
+.clear-box {
+  width: 30%;
+  height: 100%;
+}
+.output {
+  height: 48px;
+  width: 97.5%;
+  text-align: right;
+  font-size: xx-large;
+  overflow-x: hidden;
+  /* color: #acacac !important; */
+  background-color: #ffffff;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.number-buttons {
+  width: 70%;
+  /* margin-right: 25px; */
+}
+.operator-buttons {
+  width: 30%;
+}
+.number-buttons > Button {
+  height: 50px;
+  width: 33.33%;
+  /* border: none; */
+  cursor: pointer;
+}
+Button {
+  width: 100%;
+  height: 50px;
+  /* border: none; */
+  cursor: pointer;
+}
